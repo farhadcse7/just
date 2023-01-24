@@ -1,0 +1,57 @@
+/* font-family */
+body {
+    font-family: 'EB Garamond', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'EB Garamond', serif !important;
+    color: #414040;
+}
+
+p {
+    font-family: 'Poppins', sans-serif !important;
+    color: #707070;
+}
+
+
+/* banner background image */
+.banner-img {
+    background-image: url("../images/banner.png");
+    height: 65vh;
+    background-size: cover;
+    width: 100%;
+}
+
+
+/* background color */
+.my-bgcolor {
+    background-color: #B68C5A !important;
+}
+
+/* header color */
+.my-color-2 {
+    color: #414040;
+}
+
+/* paragraph color */
+.my-bgcolor2 {
+    background-color: #F3F3F3 !important;
+
+}
+
+/* carousel image styles */
+.carousel-img {
+    height: 35rem !important;
+}
+
+.carousel-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(17, 17, 17, 0.7);
+}
